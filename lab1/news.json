@@ -1,0 +1,521 @@
+{
+       "column1": [
+        {
+            "title": "Intense drought or flash floods can shock the global economy",
+            "link": "https://www.sciencenews.org/article/rain-global-economy-drought-flash-floods",
+            "author": "Carolyn Graming"
+        },
+        {
+            "title": "Babies may use saliva sharing to figure out relationships",
+            "link": "https://www.sciencenews.org/article/baby-saliva-spit-sharing-relationships-kiss-food",
+            "author": "Erin Garcia"
+        },
+        {
+            "title": "A ‘trapdoor’ made of muscle and fat helps fin whales eat without choking",
+            "link": "https://www.sciencenews.org/article/fin-whale-eat-choke-baleen-oral-plug-muscle-fat",
+            "author": "Sharon Oosthoek"
+        },
+        {
+            "title": "Gold and silver tubes in a Russian museum are the oldest known drinking straws",
+            "link": "https://www.sciencenews.org/article/oldest-drinking-straw-gold-silver-russia",
+            "author": "Bruce Bower"
+        },
+        {
+            "title": "These tiny beetles fly fast thanks to wing bristles and a weird, wide stroke",
+            "link": "https://www.sciencenews.org/article/beetle-fly-fast-wing-bristles-stroke-tiny-featherwing",
+            "author": "jake Buelher"
+        },
+        {
+            "title": "A disinfectant made from sawdust mows down deadly microbes",
+            "link": "https://www.sciencenews.org/article/disinfectant-sawdust-kill-deadly-microbes-sustainable",
+            "author": "Carolyn Wilke"
+        },
+        {
+            "title": "Volcanic avalanches of rock and gas may be more destructive than previously thought",
+            "link": "https://www.sciencenews.org/article/pyroclastic-flow-volcano-destruction-eruption",
+            "author": "Nikk Ogasa"
+        },
+        {
+            "title": "Take an online journey through the history of math",
+            "link": "https://www.sciencenews.org/article/history-math-online-exhibit-journey",
+            "author": "Erin Wayman"
+        },
+        {
+            "title": "Scientists vacuumed animal DNA out of thin air for the first time",
+            "link": "https://www.sciencenews.org/article/animal-dna-air-scientist-vacuum-first-time-zoo",
+            "author": "Jude Coleman"
+        },
+        {
+            "title": "A genetic analysis hints at why COVID-19 can mess with smell",
+            "link": "https://www.sciencenews.org/article/covid-coronavirus-smell-taste-gene-genetic",
+            "author": "Erin Carcia de Jesus"
+        },
+        {
+            "title": "Part donkey, part wild ass, the kunga is the oldest known hybrid bred by humans",
+            "link": "https://www.sciencenews.org/article/kunga-donkey-wild-ass-hybrid-biology",
+            "author": "Jake Buehler"
+        },
+        {
+            "title": "50 years ago, NASA’s space shuttle program got the green light",
+            "link": "https://www.sciencenews.org/article/50-years-ago-nasa-space-shuttle-program",
+            "author": "Emily Conover"
+        },
+        {
+            "title": "An early outburst portends a star’s imminent death",
+            "link": "https://www.sciencenews.org/article/supernova-star-early-outburst-explosion-warning-death",
+            "author": "Emily Conover"
+        },
+        {
+            "title": "Organic molecules in an ancient Mars meteorite formed via geology, not alien life",
+            "link": "https://www.sciencenews.org/article/organic-molecules-mars-meteorite-geology-alien-life",
+            "author": "Nikk Ogasa"
+        },
+        {
+            "title": "Quantum particles can feel the influence of gravitational fields they never touch",
+            "link": "https://www.sciencenews.org/article/quantum-particles-gravity-spacetime-aharonov-bohm-effect",
+            "author": "Emily Conover"
+        },
+        {
+            "title": "The largest group of nesting fish ever found lives beneath Antarctic ice",
+            "link": "https://www.sciencenews.org/article/ice-fish-nest-antarctica-breeding-colony-largest-group",
+            "author": "Jake Buehlerchloe"
+        },
+        {
+            "title": "Astronomers identified a second possible exomoon",
+            "link": "https://www.sciencenews.org/article/second-exomoon-astronomy-exoplanet",
+            "author": "Sid Perkins"
+        },
+        {
+            "title": "Homo sapiens bones in East Africa are at least 36,000 years older than once thought",
+            "link": "https://www.sciencenews.org/article/homo-sapiens-human-bones-ethiopia-omo-africa-older",
+            "author": "Bruce Bower"
+        },
+        {
+            "title": "A century of quantum mechanics questions the fundamental nature of reality",
+            "link": "https://www.sciencenews.org/article/quantum-theory-history-reality-uncertainty-physics",
+            "author": "Tom Siegfried"
+        },
+        {
+            "title": "Omicron forces us to rethink COVID-19 testing and treatments",
+            "link": "https://www.sciencenews.org/article/covid-coronavirus-omicron-variant-testing-treatment",
+            "author": "Tina Hesman Saey"
+        }
+       ],
+       "column2": [
+        {
+            "title": "Kyle Rittenhouse seeks return of gun used during deadly Kenosha protest",
+            "link": "https://www.nbcnews.com/news/us-news/kyle-rittenhouse-seeks-return-gun-used-deadly-kenosha-protest-rcna13024",
+            "author": "NBC Associated Press"
+        },
+        {
+            "title": "Chevron, Total exit Myanmar over deteriorating human rights",
+            "link": "https://www.nbcnews.com/news/world/chevron-total-exit-myanmar-deteriorating-human-rights-rcna13022",
+            "author": "NBC Associated Press"
+        },
+        {
+            "title": "Naomi Osaka knocked out of the Australian Open",
+            "link": "https://www.nbcnews.com/news/sports/naomi-osaka-knocked-australian-open-rcna13023",
+            "author": "NBC Associated Press"
+        },
+        {
+            "title": "Parts of Southeast await a blast of snow, ice, freezing rain",
+            "link": "https://www.nbcnews.com/news/us-news/parts-southeast-await-blast-snow-ice-freezing-rain-rcna13021",
+            "author": "NBC Associated Press"
+        },
+        {
+            "title": "White House launches hotline for free Covid tests as omicron drives demandNew Ski Resort",
+            "link": "https://www.nbcnews.com/politics/white-house/white-house-launches-hotline-free-covid-tests-omicron-drives-demand-n1287800",
+            "author": "Monica Alba"
+        },
+        {
+            "title": "U.S., Russia meet at 'critical moment' in push to stop Putin invading Ukraine",
+            "link": "https://www.nbcnews.com/news/world/russia-ukraine-invasion-biden-nato-blinken-rcna13018",
+            "author": "Chantal Da Silva"
+        },
+        {
+            "title": "Is omicron really less severe? ICUs more slammed than ever, doctors say",
+            "link": "https://www.nbcnews.com/health/health-news/omicron-variant-less-severe-icus-slammed-ever-doctors-say-rcna12610",
+            "author": "Erika Edwards"
+        },
+        {
+            "title": "Bipartisan Senate group hits the gas on modest election overhaul bill",
+            "link": "https://www.nbcnews.com/politics/congress/bipartisan-senate-group-hits-gas-modest-election-overhaul-bill-n1287786",
+            "author": "Sahil Kapaur"
+        },
+        {
+            "title": "Klain under scrutiny as Biden struggles",
+            "link": "https://www.nbcnews.com/politics/white-house/klain-under-scrutiny-biden-struggles-n1287801",
+            "author": "Mike Memoli, Carol E. Lee, Kristen Welker and Courtney Kube"
+        },
+        {
+            "title": "How omicron pushed Hong Kong to ramp up its ‘zero-Covid’ strategy",
+            "link": "https://www.nbcnews.com/news/world/omicron-hong-kong-zero-covid-quarantine-coronavirus-rcna12863",
+            "author": "Jennifer Jett"
+        },
+        {
+            "title": "Life returns to normality in Almaty, Kazakhstan, as Russian troops leave city",
+            "link": "https://www.nbcnews.com/news/world/kazakhstan-almaty-russian-troops-leave-returns-normal-rcna12861",
+            "author": "naubet Bisenov"
+        },
+        {
+            "title": "Patient beware: Some states are still pushing outdated Covid treatments",
+            "link": "https://www.nbcnews.com/health/health-news/covid-antibody-treatments-dont-work-omicron-still-used-states-rcna12990",
+            "author": "JoNel Aleccia"
+        },
+        {
+            "title": "FBI raid on Rep. Henry Cuellar's Texas home, office said to be tied to Azerbaijan",
+            "link": "https://www.nbcnews.com/politics/politics-news/fbi-raid-us-rep-henry-cuellars-texas-home-office-said-tied-azerbaijan-rcna13005",
+            "author": "MIcharl Kosnar"
+        },
+        {
+            "title": "Ancient and hidden, Machu Picchu's complexity uncovered by archaeologists",
+            "link": "https://www.nbcnews.com/science/science-news/ancient-hidden-machu-picchus-complexity-uncovered-archaeologists-rcna12900",
+            "author": "Denise Chow"
+        },
+        {
+            "title": "Bodycam footage released of teen who died after being restrained at Wichita juvenile center",
+            "link": "https://www.nbcnews.com/news/us-news/bodycam-footage-released-teen-died-restrained-wichita-juvenile-center-rcna12975",
+            "author": "Doha Madani and Phil Helsel"
+        },
+        {
+            "title": "Officials vote to fire 3 Pennsylvania officers accused of fatally shooting 8-year-old Fanta Bility",
+            "link": "https://www.nbcnews.com/news/us-news/officials-vote-fire-3-pennsylvania-officers-accused-fatally-shooting-8-rcna13011",
+            "author": "Tim Stelloh"
+        },
+        {
+            "title": "U.S. charges Belarus with air piracy in Ryanair flight diversion to arrest journalist",
+            "link": "https://www.nbcnews.com/news/world/us-charges-belarus-air-piracy-journalists-arrest-ryanair-diversion-rcna13003",
+            "author": "NBC Associated Press"
+        },
+        {
+            "title": "Emily's List, NARAL pull support of Sinema over opposition to changing filibuster",
+            "link": "https://www.nbcnews.com/politics/congress/emily-s-list-naral-pull-support-sinema-over-filibuster-opposition-n1287789",
+            "author": "Teaganne Finn"
+        },
+        {
+            "title": "Jury selected for officers' federal trial over George Floyd’s killing",
+            "link": "https://www.nbcnews.com/news/us-news/jury-selected-officers-federal-trial-george-floyds-killing-rcna12995",
+            "author": "NBC Associated Press"
+        },
+        {
+            "title": "https://www.nbcnews.com/pop-culture/pop-culture-news/adele-postpones-las-vegas-residency-due-covid-19-rcna12994",
+            "link": "https://www.nbcnews.com/pop-culture/pop-culture-news/adele-postpones-las-vegas-residency-due-covid-19-rcna12994",
+            "author": "Saba Hamedy"
+        }
+       ],
+       "column3":[
+        {
+            "title": "Deltacron: the story of the variant that wasn’t",
+            "link": "https://www.nature.com/articles/d41586-022-00149-9",
+            "author": "Freda Kreier"
+        },
+        {
+            "title": "Deltacron: the story of the variant that wasn’t",
+            "link": "https://www.nature.com/articles/d41586-022-00137-z",
+            "author": "Amriti Mallapaty"
+        },
+        {
+            "title": "New Recipie for Cookies",
+            "link": "https://www.nature.com/articles/d41586-022-00108-4",
+            "author": "joe"
+        },
+        {
+            "title": "Has Biden followed the science? What researchers say",
+            "link": "https://www.nature.com/articles/d41586-022-00108-4",
+            "author": "Jeff Tollefson"
+        },
+        {
+            "title": "How does Omicron spread so fast? A high viral load isn’t the answer",
+            "link": "https://www.nature.com/articles/d41586-022-00129-z",
+            "author": "Max Kozlov"
+        },
+        {
+            "title": "Thwarted vaccines, strange metals — the week in infographics",
+            "link": "https://www.nature.com/articles/d41586-022-00130-6",
+            "author": "Press"
+        },
+        {
+            "title": "What Charles Lieber’s conviction means for science",
+            "link": "https://www.nature.com/articles/d41586-022-00107-5",
+            "author": "Andrew Silver"
+        },
+        {
+            "title": "Tonga volcano eruption created puzzling ripples in Earth’s atmosphere",
+            "link": "https://www.nature.com/articles/d41586-022-00127-1",
+            "author": "David Adam"
+        },
+        {
+            "title": "First pig-to-human heart transplant: what can scientists learn?",
+            "link": "https://www.nature.com/articles/d41586-022-00111-9",
+            "author": "Sara Reardon"
+        },{
+            "title": "How rich countries skew the fossil record",
+            "link": "https://www.nature.com/articles/d41586-022-00034-5",
+            "author": "Ewen Callaway"
+        },
+        {
+            "title": "Earth’s orbit, testing in pregnancy — the week in infographics",
+            "link": "https://www.nature.com/articles/d41586-022-00083-w",
+            "author": "Related Press"
+        },
+        {
+            "title": "COVID vaccines safely protect pregnant people: the data are in",
+            "link": "https://www.nature.com/articles/d41586-022-00031-8",
+            "author": "Shannon Hall"
+        },
+        {
+            "title": "How to protect US science from political meddling after Trump",
+            "link": "https://www.nature.com/articles/d41586-022-00059-w",
+            "author": "Alexandra Witze"
+        },
+        {
+            "title": "Landmark Colombian bird study repeated to right colonial-era wrongs",
+            "link": "https://www.nature.com/articles/d41586-021-03527-x",
+            "author": "Luke Taylor"
+        },
+        {
+            "title": "‘Killer’ immune cells still recognize Omicron variant",
+            "link": "https://www.nature.com/articles/d41586-022-00063-0",
+            "author": "Heidi Ledford"
+        },
+        {
+            "title": "Landmark Webb observatory is now officially a telescope",
+            "link": "https://www.nature.com/articles/d41586-022-00035-4",
+            "author": "Alexandra Witze"
+        },
+        {
+            "title": "WHO chief Tedros looks guaranteed for re-election amid COVID pandemic",
+            "link": "https://www.nature.com/articles/d41586-022-00019-4",
+            "author": "Amy Maxmen"
+        },
+        {
+            "title": "Omicron’s feeble attack on the lungs could make it less dangerous",
+            "link": "https://www.nature.com/articles/d41586-022-00007-8",
+            "author": "Max Kozlov"
+        },
+        {
+            "title": "Elizabeth Holmes verdict: researchers share lessons for science",
+            "link": "https://www.nature.com/articles/d41586-022-00006-9",
+            "author": "Emily Waltz"
+        },
+        {
+            "title": "Webb telescope blasts off successfully — launching a new era in astronomy",
+            "link": "https://www.nature.com/articles/d41586-021-03655-4",
+            "author": "Alexandra Witze"
+        }
+       ],
+       "column4":[
+        {
+            "title": "Researchers fear growing COVID vaccine hesitancy in developing nations",
+            "link": "https://www.nature.com/articles/d41586-021-03830-7",
+            "author": "Smiriti Mallapaty"
+        },
+        {
+            "title": "Researchers fear growing COVID vaccine hesitancy in developing nations",
+            "link": "https://www.nature.com/articles/d41586-021-03589-x",
+            "author": "Andrew Silver"
+        },
+        {
+            "title": "Journals adopt AI to spot duplicated images in manuscripts",
+            "link": "https://www.nature.com/articles/d41586-021-03807-6",
+            "author": "Richard Noorden"
+        },
+        {
+            "title": "Omicron overpowers key COVID antibody treatments in early tests",
+            "link": "https://www.nature.com/articles/d41586-021-03829-0",
+            "author": "Max Kozlov"
+        },
+        {
+            "title": "Afghanistan’s academics despair months after Taliban takeover",
+            "link": "https://www.nature.com/articles/d41586-021-03774-y",
+            "author": "Simriti Mallapaty"
+        },
+        {
+            "title": "The science events to watch for in 2022",
+            "link": "https://www.nature.com/articles/d41586-021-03772-0",
+            "author": "davide Castelvecchi"
+        },
+        {
+            "title": "What Biden’s $2-trillion spending bill could mean for climate change",
+            "link": "https://www.nature.com/articles/d41586-021-03787-7",
+            "author": "Jeff Tollefson"
+        },
+        {
+            "title": "How severe are Omicron infections?",
+            "link": "https://www.nature.com/articles/d41586-021-03794-8",
+            "author": "Heidi Ledford"
+        },
+        {
+            "title": "How COVID vaccines shaped 2021 in eight powerful charts",
+            "link": "https://www.nature.com/articles/d41586-021-03686-x",
+            "author": "Ewwn Callaway"
+        },
+        {
+            "title": "Omicron blindspots: why it’s hard to track coronavirus variants",
+            "link": "https://www.nature.com/articles/d41586-021-03698-7",
+            "author": "Amy Maxmen"
+        },
+        {
+            "title": "Evidence of racism found at prestigious London university",
+            "link": "https://www.nature.com/articles/d41586-021-03755-1",
+            "author": "Linda Nording"
+        },
+        {
+            "title": "https://www.nature.com/articles/d41586-021-03734-6",
+            "link": "https://www.nature.com/articles/d41586-021-03734-6",
+            "author": "Related Press"
+        },
+        {
+            "title": "Giant cracks push imperilled Antarctic glacier closer to collapse",
+            "link": "https://www.nature.com/articles/d41586-021-03758-y",
+            "author": "Alexandra Witze"
+        },
+        {
+            "title": "NASA spacecraft ‘touches’ the Sun for the first time ever",
+            "link": "https://www.nature.com/articles/d41586-021-03751-5",
+            "author": "Alexandra Witze"
+        },
+        {
+            "title": "What Sci-Hub’s latest court battle means for research",
+            "link": "https://www.nature.com/articles/d41586-021-03659-0",
+            "author": "Holly Else"
+        },
+        {
+            "title": "Merck’s COVID pill loses its lustre: what that means for the pandemic",
+            "link": "https://www.nature.com/articles/d41586-021-03667-0",
+            "author": "Max Kozlov"
+        },
+        {
+            "title": "The best science images of 2021",
+            "link": "https://www.nature.com/immersive/d41586-021-03521-3/index.html",
+            "author": "Emma Stoye"
+        },
+        {
+            "title": "COVID evolution and the Webb telescope — the week in infographics",
+            "link": "https://www.nature.com/articles/d41586-021-03694-x",
+            "author": "Related Press"
+        },
+        {
+            "title": "DeepMind AI tackles one of chemistry’s most valuable techniques",
+            "link": "https://www.nature.com/articles/d41586-021-03697-8",
+            "author": "Davide Castlvecchi"
+        },
+        {
+            "title": "Half of top cancer studies fail high-profile reproducibility effort",
+            "link": "https://www.nature.com/articles/d41586-021-03691-0",
+            "author": "Asher Mullard"
+        },
+        {
+            "title": "Omicron likely to weaken COVID vaccine protection",
+            "link": "https://www.nature.com/articles/d41586-021-03672-3",
+            "author": "Ewen Callaway"
+        },
+        {
+            "title": "Hominin skull and Mars panorama — November’s best science images",
+            "link": "https://www.nature.com/immersive/d41586-021-03520-4/index.htmlskis.com",
+            "author": "Related Press"
+        }
+       ],
+       "column5":[
+        {
+            "title": "Here’s what goldfish driving ‘cars’ tell us about navigation",
+            "link": "https://www.sciencenews.org/article/goldfish-car-drive-navigation-biology",
+            "author": "Maria Temming"
+        },
+        {
+            "title": "See stunning fossils of insects, fish and plants from an ancient Australian forest",
+            "link": "https://www.sciencenews.org/article/fossils-ancient-australia-forest-insects-fish-plants",
+            "author": "Carolyn Gramling"
+        },
+        {
+            "title": "Drug-resistant bacteria evolved on hedgehogs long before the use of antibiotics",
+            "link": "https://www.sciencenews.org/article/drug-resistant-bacteria-hedgehog-mrsa",
+            "author": "Carolyn Wilke"
+        },
+        {
+            "title": "Some volcanic hot spots may have a surprisingly shallow heat source",
+            "link": "https://www.sciencenews.org/article/volcano-hot-spots-shallow-heat-source-tectonic-plates-mantle",
+            "author": "Sid Perkins"
+        },
+        {
+            "title": "Why do some people succeed when others fail? Outliers provide clues",
+            "link": "https://www.sciencenews.org/article/success-fail-why-outliers-people-communities-nudges",
+            "author": "Sujata Gupta"
+        },
+        {
+            "title": "Antiprotons show no hint of unexpected matter-antimatter differences",
+            "link": "https://www.sciencenews.org/article/antiprotons-protons-matter-antimatter-differences-physics",
+            "author": "Emily Conover"
+        },
+        {
+            "title": "‘Feeling & Knowing’ explores the origin and evolution of consciousness",
+            "link": "https://www.sciencenews.org/article/feeling-knowing-book-consciousness-origin-evolution",
+            "author": "JP O'Malley"
+        },
+        {
+            "title": "‘Blastoids’ made of stem cells offer a new way to study fertility",
+            "link": "https://www.sciencenews.org/article/blastoid-stem-cells-fertility-research",
+            "author": "Jake Buehler"
+        },
+        {
+            "title": "Here’s how spider geckos survive on Earth’s hottest landscape",
+            "link": "https://www.sciencenews.org/article/spider-gecko-earth-hottest-landscape",
+            "author": "chloJude Coleman"
+        },
+        {
+            "title": "Two stars’ close encounter may explain a cosmic flare that has barely faded",
+            "link": "https://www.sciencenews.org/article/two-stars-cosmic-flare-light-fu-orionis",
+            "author": "Ken Croswell"
+        },
+        {
+            "title": "The coronavirus may cause fat cells to miscommunicate, leading to diabetes",
+            "link": "https://www.sciencenews.org/article/coronavirus-covid-diabetes-fat-cells-blood-sugar",
+            "author": "tina Hesman"
+        },
+        {
+            "title": "Arctic hunter-gatherers were advanced ironworkers more than 2,000 years ago",
+            "link": "https://www.sciencenews.org/article/arctic-hunter-gatherers-iron-metal-production-sweden",
+            "author": "Bruce Bower"
+        },
+        {
+            "title": "Africa’s ‘Great Green Wall’ could have far-reaching climate effects",
+            "link": "https://www.sciencenews.org/article/africa-great-green-wall-trees-sahel-climate-change",
+            "author": "Carolyn Gramling"
+        },
+        {
+            "title": "Enceladus’ plumes might not come from an underground ocean",
+            "link": "https://www.sciencenews.org/article/enceladus-plumes-water-ocean-saturn",
+            "author": "Lisa Grossman"
+        },
+        {
+            "title": "These are the most-read Science News stories of 2021",
+            "link": "https://www.sciencenews.org/article/science-news-most-read-stories-2021",
+            "author": "Science news Staff"
+        },
+        {
+            "title": "How some of 2021’s major science stories evolved over time",
+            "link": "https://www.sciencenews.org/article/2021-science-stories-updates-mosquitoes-malaria-tulsa-wildfires",
+            "author": "Science News Staff"
+        },
+        {
+            "title": "Spacecraft in 2021 set their sights on Mars, asteroids and beyond",
+            "link": "https://www.sciencenews.org/article/2021-nasa-mars-asteroids-spacecraft",
+            "author": "Lisa Grossman"
+        },
+        {
+            "title": "How electric vehicles offered hope as climate challenges grew",
+            "link": "https://www.sciencenews.org/article/electric-vehicles-cars-climate-change-challenges-2021",
+            "author": "Carolyn Gramming"
+        },
+        {
+            "title": "These discoveries from 2021, if true, could shake up science",
+            "link": "https://www.sciencenews.org/article/science-discoveries-2021-big-if-true",
+            "author": "Aina Abell"
+        },
+        {
+            "title": "A 1,306-legged millipede is the first to live up to its name",
+            "link": "https://www.sciencenews.org/article/millipede-most-legs-eumillipes-persephone",
+            "author": "Jonathan lambert"
+        }
+       ]
+}

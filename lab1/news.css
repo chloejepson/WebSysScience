@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-custom-row{
+    background-color: bisque;
+    height: 90px;
+
+}
+
+#caption{
+    width: 40%;
+}
+
+#header{
+    background-color: rgb(235, 229, 212);
+}
+
+#bottom{
+    height: 300px;
+}
