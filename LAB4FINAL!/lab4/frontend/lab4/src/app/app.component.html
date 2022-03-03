@@ -1,0 +1,397 @@
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Codex</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- <link rel="stylesheet" href="main.css"> -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- <link rel="stylesheet" href="/app.component.css"/> -->
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Poppins&family=Press+Start+2P&family=Red+Hat+Mono:wght@300&family=Source+Code+Pro:wght@200&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <div id="outside" class="container flex-center">
+  <div class="container flex-center" id="container">
+      <h2>PokeDex</h2>
+      <div class="search-container col-md-5 col-sm-5">
+          <input type="text" class="form-control" id="search_q" placeholder="Search pokemon">
+          <button class="btn-search" id="search-btn">
+              <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+      </div>
+      <div class="col-md-5 col-sm-5 pokemon-card" id="pokemon_details">
+          <div class="img-container">
+              <img id="update_img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="" srcset="">
+          </div>
+      </div>
+
+      <div class="title-container">
+          <h3 class="name text-center" id="update_name">Pikachu</h3>
+          <hr class="seperator">
+      </div>
+      <div class="col attributes-content" style="min-width: 42%;">
+          <small class="text-muted">Type</small>
+          <p class="cp-text" id="update_type">Electric / Speed</p>
+      </div>
+  </div>
+  <div class="container flex container" id="container">
+      <h2>Pokemon info</h2>
+      <div class="col attributes-content" style="min-width: 42%;" id="pokemon_details">
+          <small class="text-muted">HP</small>
+          <p class="name text-center" id="update_hp"></p>
+          <hr class="seperator">
+      </div>
+      <div class="col attributes-content" style="min-width: 42%;" id="pokemon_details">
+          <small class="text-muted">CP</small>
+          <p class="name text-center" id="update_cp"></p>
+          <hr class="seperator">
+      </div>
+      <div class="col attributes-content" style="min-width: 42%;" id="pokemon_details">
+          <small class="text-muted">Weight</small>
+          <p class="name text-center" id="update_weight"></p>
+          <hr class="seperator">
+      </div>
+      <div class="col attributes-content" style="min-width: 42%;" id="pokemon_details">
+          <small class="text-muted">Height</small>
+          <p class="name text-center" id="update_height"></p>
+          <hr class="seperator">
+      </div>
+      <div class="col attributes-content" style="min-width: 42%;" id="outputInfo">
+          <h5 id="outputTitle"></h5>
+          <p id="pokemonReport"></p>
+          <p id="pokemonDelete"></p>
+      </div>
+  </div>
+  </div>
+  <div id="bottomcontainer">
+  <div class="container flex container" id="sendPokemonContainer">
+      <h4>Report Found Pokemon Here!</h4>
+      <div class="search-container col-md-5 col-sm-5">
+          <form method="POST" action="/submit-Pokemon">
+          <input  name="newPokemon" value="" type="text" class="form-control" id="newPokemon" placeholder="Enter a pokemon you found">
+          <input  name="newLocation" value="" type="text" class="form-control" id="newLocation" placeholder="Enter the Location">
+          <!-- <button class="btn-send" id="send-btn">
+              <i class="far fa-alien-monster" aria-hidden="true"></i>
+          </button> -->
+          <input type="submit">
+          </form>
+      </div>
+  </div>
+  <div class="container flex container" id="sendPokemonContainer">
+      <h4>Get Location info Here!</h4>
+      <div class="search-container col-md-5 col-sm-5">
+          <form method="GET" action="/submit-Location">
+          <input  name="Location" value="" type="text" class="form-control" id="newPokemon" placeholder="Enter a pokemon you found">
+          <!--supposed to submit a location, and the api will send back a description of the location-->
+          <!-- <button class="btn-send" id="send-btn">
+              <i class="far fa-alien-monster" aria-hidden="true"></i>
+          </button> -->
+          <input type="submit">
+          </form>
+      </div>
+  </div>
+  <div class="container flex container" id="sendPokemonContainer">
+      <h4>Delete Found Pokemon Here!</h4>
+      <div class="search-container col-md-5 col-sm-5">
+          <form method="POST" action="/submit-Pokemon">
+          <input  name="newPokemon" value="" type="text" class="form-control" id="newPokemon" placeholder="Enter a pokemon you found">
+          <input  name="newLocation" value="" type="text" class="form-control" id="newLocation" placeholder="Enter the Location">
+          <!-- <button class="btn-send" id="send-btn">
+              <i class="far fa-alien-monster" aria-hidden="true"></i>
+          </button> -->
+          <input type="submit">
+          </form>
+      </div>
+  </div>
+  </div>
+  <!--SOURCE CODE FOR THE CLOUD BACKGROUND BELOW-->
+  <div id="background-wrap">
+      <div class="x1">
+          <div class="cloud"></div>
+      </div>
+  
+      <div class="x2">
+          <div class="cloud"></div>
+      </div>
+  
+      <div class="x3">
+          <div class="cloud"></div>
+      </div>
+  
+      <div class="x4">
+          <div class="cloud"></div>
+      </div>
+  
+      <div class="x5">
+          <div class="cloud"></div>
+      </div>
+  </div>
+  
+
+  <script>
+      const search_term= document.getElementById('search_q')
+const search_btn = document.getElementById('search-btn')
+
+const getPokemonData= async query=>{
+    // document.getElementById('show_error').classList.remove('show')
+    // document.getElementById('show_error').classList.add('hidden')
+
+    const url = `https://pokeapi.co/api/v2/pokemon/${query}`
+    const response = await fetch(url)
+
+    const pokemon= await response.json()
+    document.getElementById('update_img').setAttribute('src', pokemon.sprites.other.dream_world.front_default)
+    document.getElementById('update_name').innerHTML = pokemon.name
+    document.getElementById('update_type').innerHTML = `${pokemon.types[0].type.name}`
+    document.getElementById('update_hp').innerHTML= `HP ${Math.floor((Math.random() * pokemon.stats[0].base_stat) + 1)}/${pokemon.stats[0].base_stat}`
+    document.getElementById('update_cp').innerHTML= `XP ${pokemon.base_experience}`
+    document.getElementById('update_weight').innerHTML = `${pokemon.weight}kg`
+    document.getElementById('update_height').innerHTML= `0.${pokemon.height}m`
+
+
+}
+search_btn.addEventListener('click', () => getPokemonData(search_term.value))
+  </script>
+  
+  <style>
+    /* #container{
+        width: 40%;
+        border: 1px solid;
+        height: 90%;
+        border-radius:20px;
+        background-color: white;
+    } */
+    #update_img{
+        height: 300px;
+        width: 300px;
+    }
+    *{
+        font-family: 'Space Mono', monospace;
+    }
+    /* #container2{
+        width: 40%;
+        border: 1px solid;
+        height: 90%;
+        border-radius:20px;
+        background-color: white; 
+    } */
+
+    #outside{
+        content: "";
+        display: table;
+        clear: both;
+        width: 60%;
+        height: 80%;
+    }
+    #container{
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 550px;
+        border-radius:20px;
+        background-color: white;
+        border: 1px solid;
+    }
+    #bottomcontainer{
+        content: "";
+        display: table;
+        clear: both;
+        box-sizing: border-box;
+        
+    }
+
+    #sendPokemonContainer{
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        height: 200px; /* Should be removed.*/
+        box-sizing: border-box;
+        border-radius:20px;
+        background-color: white;
+        border: 1px solid;
+    }
+
+</style>
+
+<style>
+    
+  /*BELOW IS THE CODE FOR THE CLOUD ANIMATIONS*/
+body {
+	background: #00b4ff;
+	color: #333;
+	font: 100% Arial, Sans Serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+#background-wrap {
+    bottom: 0;
+	left: 0;
+	padding-top: 50px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+	-webkit-animation: animateCloud 35s linear infinite;
+	-moz-animation: animateCloud 35s linear infinite;
+	animation: animateCloud 35s linear infinite;
+	
+	-webkit-transform: scale(0.65);
+	-moz-transform: scale(0.65);
+	transform: scale(0.65);
+}
+
+.x2 {
+	-webkit-animation: animateCloud 20s linear infinite;
+	-moz-animation: animateCloud 20s linear infinite;
+	animation: animateCloud 20s linear infinite;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x3 {
+	-webkit-animation: animateCloud 30s linear infinite;
+	-moz-animation: animateCloud 30s linear infinite;
+	animation: animateCloud 30s linear infinite;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.x4 {
+	-webkit-animation: animateCloud 18s linear infinite;
+	-moz-animation: animateCloud 18s linear infinite;
+	animation: animateCloud 18s linear infinite;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x5 {
+	-webkit-animation: animateCloud 25s linear infinite;
+	-moz-animation: animateCloud 25s linear infinite;
+	animation: animateCloud 25s linear infinite;
+	
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	transform: scale(0.55);
+}
+
+/* OBJECTS */
+
+.cloud {
+	background: #fff;
+	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
+	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+	
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	
+	-webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+	height: 120px;
+	position: relative;
+	width: 350px;
+}
+
+.cloud:after, .cloud:before {
+    background: #fff;
+	content: '';
+	position: absolute;
+	z-indeX: -1;
+}
+
+.cloud:after {
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	height: 100px;
+	left: 50px;
+	top: -50px;
+	width: 100px;
+}
+
+.cloud:before {
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+
+	width: 180px;
+	height: 180px;
+	right: 50px;
+	top: -90px;
+}
+
+
+</style>
+
+
+  
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
