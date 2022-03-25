@@ -1,0 +1,195 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Codex</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="stylesheet" href="/app.component.css"/> -->
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Poppins&family=Press+Start+2P&family=Red+Hat+Mono:wght@300&family=Source+Code+Pro:wght@200&family=Space+Mono&display=swap" rel="stylesheet">
+  <script src="frontend/dist/lab5/index.component.js"></script>
+  </head>
+  <body>
+    <script>
+          
+// const search_term= document.getElementById('search_q')
+// const search_btn = document.getElementById('search-btn')
+
+// const getPokemonData= async query=>{
+//   // document.getElementById('show_error').classList.remove('show')
+//   // document.getElementById('show_error').classList.add('hidden')
+
+//   const url = `https://pokeapi.co/api/v2/pokemon/${query}`
+//   const response = await fetch(url)
+
+//   const pokemon= await response.json()
+//   document.getElementById('update_img').setAttribute('src', pokemon.sprites.other.dream_world.front_default)
+//   document.getElementById('update_name').innerHTML = pokemon.name
+//   document.getElementById('update_type').innerHTML = `${pokemon.types[0].type.name}`
+//   document.getElementById('update_hp').innerHTML= `HP ${Math.floor((Math.random() * pokemon.stats[0].base_stat) + 1)}/${pokemon.stats[0].base_stat}`
+//   document.getElementById('update_cp').innerHTML= `XP ${pokemon.base_experience}`
+//   document.getElementById('update_weight').innerHTML = `${pokemon.weight}kg`
+//   document.getElementById('update_height').innerHTML= `0.${pokemon.height}m`
+
+
+// }
+// document.getElementById('search-btn').addEventListener('click', ()=> getPokemonData(search_term.value))
+    </script>
+    <div id="outside" class="container flex-center">
+    <div class="container flex-center" id="container">
+        <h2>PokeDex</h2>
+        <div class="search-container col-md-5 col-sm-5">
+            <form method="POST" action="/search-pokemon">
+            <input name="searchPokemon" type="text" class="form-control" id="search_q" placeholder="Search pokemon">
+            <input type="submit"class="btn-search" id="search-btn" >
+                <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+            
+            </form>
+        </div>
+        <div class="col-md-5 col-sm-5 pokemon-card" id="pokemon_details">
+            <div class="img-container">
+                <img id="update_img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="" srcset="">
+            </div>
+        </div>
+  
+        <div class="title-container">
+            <h3 class="name text-center" id="update_name">Pikachu</h3>
+            <hr class="seperator">
+        </div>
+        <div class="col attributes-content" style="min-width: 42%;">
+            <small class="text-muted">Type</small>
+            <p class="cp-text" id="update_type">Electric / Speed</p>
+        </div>
+    </div>
+    <div class="container flex container" id="container">
+        <h2>Pokemon info</h2>
+        <div class="col attributes-content" style="min-width: 42%;" id="pokemon_details">
+            <small class="text-muted">HP</small>
+            <p class="name text-center" id="update_hp"></p>
+            <hr class="seperator">
+        </div>
+        <div class="col attributes-content" style="min-width: 42%;" id="pokemon_details">
+            <small class="text-muted">CP</small>
+            <p class="name text-center" id="update_cp"></p>
+            <hr class="seperator">
+        </div>
+        <div class="col attributes-content" style="min-width: 42%;" id="pokemon_details">
+            <small class="text-muted">Weight</small>
+            <p class="name text-center" id="update_weight"></p>
+            <hr class="seperator">
+        </div>
+        <div class="col attributes-content" style="min-width: 42%;" id="pokemon_details">
+            <small class="text-muted">Height</small>
+            <p class="name text-center" id="update_height"></p>
+            <hr class="seperator">
+        </div>
+        <div class="col attributes-content" style="min-width: 42%;" id="outputInfo">
+            <h5 id="outputTitle"></h5>
+            <p id="pokemonReport"></p>
+            <p id="pokemonDelete"></p>
+        </div>
+    </div>
+    </div>
+    <div id="bottomcontainer">
+    <div class="container flex container" id="sendPokemonContainer">
+        <h4>Report Found Pokemon Here!</h4>
+        <div class="search-container col-md-5 col-sm-5">
+            <form method="POST" action="/submit-Pokemon">
+            <input  name="newPokemon" value="" type="text" class="form-control" id="newPokemon" placeholder="Enter a pokemon you found">
+            <input  name="newLocation" value="" type="text" class="form-control" id="newLocation" placeholder="Enter the Location">
+            <!-- <button class="btn-send" id="send-btn">
+                <i class="far fa-alien-monster" aria-hidden="true"></i>
+            </button> -->
+            <input type="submit">
+            </form>
+        </div>
+    </div>
+    <div class="container flex container" id="sendPokemonContainer">
+        <h4>Submit Captured Pokemon & Number in Pokedex Here</h4>
+        <h6>My Pokemon!</h6>
+        <div class="search-container col-md-5 col-sm-5">
+            <form method="POST" action="/db">
+            <input  name="myPokemon" value="" type="text" class="form-control" id="myPokemon" placeholder="Pokemon Name">
+            <input  name="myPokemonNumber" value="" type="text" class="form-control" id="myPokemonNumber" placeholder="Pokemon Number">
+            <input type="submit">
+            </form>
+        </div>
+    </div>
+    <div class="container flex container" id="sendPokemonContainer">
+        <h4>Search Pokemon In Your List Here</h4>
+        <h6>Enter the Number of your Pokemon</h6>
+        <div class="search-container col-md-5 col-sm-5">
+            <form method="GET" action="/db/:id">
+            <input  name="pokemonNumber" value="" type="text" class="form-control" id="pokemonNumber" placeholder="Number">
+            <input type="submit">
+            </form>
+        </div>
+        <p id="findAnswer"></p>
+        <p id="pokemonAnswer"></p>
+    </div>
+    <div class="container flex container" id="sendPokemonContainer">
+        <h4>Delete Pokemon In Your List Here</h4>
+        <h6>Enter the Number of your Pokemon to Delete it</h6>
+        <div class="search-container col-md-5 col-sm-5">
+            <form method="DELETE" action="/db/:id">
+            <input  name="pokemonNumber2" value="" type="text" class="form-control" id="pokemonNumber2" placeholder="Number">
+            <input type="submit">
+            </form>
+        </div>
+    </div>
+    <div class="container flex container" id="sendPokemonContainer">
+        <h4>Update Pokemon In Your List Here</h4>
+        <h6>Enter the Number of your Pokemon to Change the Name</h6>
+        <div class="search-container col-md-5 col-sm-5">
+            <form method="PUT" action="/db/:id">
+            <input  name="pokemonNumber3" value="" type="text" class="form-control" id="pokemonNumber2" placeholder="Number">
+            <input  name="pokemonName3" value="" type="text" class="form-control" id="pokemonName2" placeholder="Name">
+            <input type="submit">
+            </form>
+        </div>
+    </div>
+    <app-part3></app-part3>
+    </div>
+    <!--SOURCE CODE FOR THE CLOUD BACKGROUND BELOW-->
+    <div id="background-wrap">
+        <div class="x1">
+            <div class="cloud"></div>
+        </div>
+    
+        <div class="x2">
+            <div class="cloud"></div>
+        </div>
+    
+        <div class="x3">
+            <div class="cloud"></div>
+        </div>
+    
+        <div class="x4">
+            <div class="cloud"></div>
+        </div>
+    
+        <div class="x5">
+            <div class="cloud"></div>
+        </div>
+    </div>
+    
+
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
