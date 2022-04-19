@@ -1,0 +1,76 @@
+<p>index works!</p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Codex</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="stylesheet" href="/app.component.css"/> -->
+  
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Poppins&family=Press+Start+2P&family=Red+Hat+Mono:wght@300&family=Source+Code+Pro:wght@200&family=Space+Mono&display=swap" rel="stylesheet">
+  <!-- <script src="frontend/dist/lab5/index.component.js"></script> -->
+  </head>
+
+  <div id="outside" class="container flex-center">
+    <div class="container flex-center" id="container">
+        <h2>Forms for GET, PUT, POST, DELETE Requests</h2>
+        <div class="search-container col-md-5 col-sm-5">
+            <h3>GET All</h3>
+            <form method="GET" action="/mongo">
+            <!-- <input type="submit"class="btn-search" id="search-btn" onclick="getPokemonData()"> -->
+            <button type="submit" class="btn-search-getAll" id="search-btn-getAll" >Submit</button>
+            </form>
+        </div>
+
+        <div class="search-container col-md-5 col-sm-5">
+            <h3>GET One</h3>
+            <p>Enter a country's name to return its info</p>
+            <form method="GET" action="/mongo/:number">
+            <input  name="getNumber" value="" type="text" class="form-control" id="getNumber" placeholder="Country name">
+            <button type="submit" class="btn-search-getAll" id="search-btn-getAll" >Submit</button>
+            </form>
+        </div>
+
+        <div class="search-container col-md-5 col-sm-5">
+            <h3>POST One</h3>
+            <p>Enter a country's name to return its info</p>
+            <form method="POST" action="/mongo">
+            <input  name="postCountryName" value="" type="text" class="form-control" id="postCountryname" placeholder="">
+            <input  name="postCountryGDP" value="" type="text" class="form-control" id="postCountryGDP" placeholder="">
+            <button type="submit" class="btn-search-getAll" id="search-btn-getAll" >Submit</button>
+            </form>
+        </div>
+
+        <div class="search-container col-md-5 col-sm-5">
+            <h3>PUT  One</h3>
+            <p>Enter a country's name and new GDP to change its GDP</p>
+            <!--ALL OF THE CODE TO UPDATE THE DOC IS IN THE TS FILE FOR THIS THE TS FILE CALLS API- AS WEL AS DELETE FUNCTION-->
+            <form>
+            <input  name="putCountryName" value="" type="text" class="form-control" id="putCountryname" placeholder="">
+            <input  name="putCountryGDP" value="" type="text" class="form-control" id="putCountryGDP" placeholder="">
+            <button type="submit" class="btn-search-put" id="search-btn-put" >Submit</button>
+            </form>
+        </div>
+
+        <div class="search-container col-md-5 col-sm-5">
+            <h3>DELETE  One</h3>
+            <p>Enter a country's name to delete it out of the DB</p>
+            <!--ALL OF THE CODE TO UPDATE THE DOC IS IN THE TS FILE FOR THIS THE TS FILE CALLS API- AS WEL AS PUT FUNCTION-->
+            <form>
+            <input  name="deleteCountryName" value="" type="text" class="form-control" id="deleteCountryname" placeholder="">
+            <button type="submit" class="btn-search-delete" id="search-btn-delete" >Submit</button>
+            </form>
+        </div>
+        
+    </div>
+    </div>
